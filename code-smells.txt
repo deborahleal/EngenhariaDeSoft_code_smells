@@ -1,0 +1,22 @@
+main.py
+
+Comentários desnecessários: Os comentários explicando partes óbvias do código podem ser considerados desnecessários e poluem o código.
+
+Importações desnecessárias: A importação da função sleep do módulo time não é utilizada no código, portanto é desnecessária.
+
+Nomes de variáveis pouco descritivos: Os nomes de algumas variáveis, como numero_aleatorio, poderiam ser mais descritivos para facilitar a compreensão do código.
+
+Número mágico: O número 3 usado para o intervalo na geração do número aleatório é um número mágico. É melhor atribuir esse valor a uma constante com um nome significativo.
+
+Duplicação de código: A lógica de notificação dos jogadores sobre o início e o término do jogo é duplicada, violando o princípio DRY (Don't Repeat Yourself).
+
+
+teste.py
+
+Nomes de métodos não descritivos: Os nomes dos métodos de teste, como inserindojoagoresnoJogo e enviandoNotificacao, não seguem a convenção de nomenclatura de teste do Python e não são descritivos o suficiente.
+
+Teste redundante: O método enviandoNotificacao parece estar testando a mesma funcionalidade que o método test_estado_inicial_do_jogo, tornando-o redundante.
+
+Ausência de comentários explicativos: Alguns métodos de teste não possuem comentários explicativos sobre o que estão testando, o que pode dificultar a compreensão do teste.
+
+Teste falho não informativo: As mensagens de falha nos testes ("teste falhou") não são muito informativas e não indicam o motivo específico da falha.
